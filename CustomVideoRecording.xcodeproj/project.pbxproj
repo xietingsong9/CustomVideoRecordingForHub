@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217D8181194AF6D900B89939 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 217D817F194AF6D900B89939 /* InfoPlist.strings */; };
+		217D8183194AF6D900B89939 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D8182194AF6D900B89939 /* main.m */; };
+		217D8187194AF6D900B89939 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D8186194AF6D900B89939 /* AppDelegate.m */; };
+		217D8189194AF6D900B89939 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217D8188194AF6D900B89939 /* Images.xcassets */; };
+		217D8190194AF6D900B89939 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D818F194AF6D900B89939 /* XCTest.framework */; };
+		217D8191194AF6D900B89939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8176194AF6D900B89939 /* Foundation.framework */; };
+		217D8192194AF6D900B89939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D817A194AF6D900B89939 /* UIKit.framework */; };
+		217D819A194AF6D900B89939 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 217D8198194AF6D900B89939 /* InfoPlist.strings */; };
+		217D819C194AF6D900B89939 /* CustomVideoRecordingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D819B194AF6D900B89939 /* CustomVideoRecordingTests.m */; };
+		217D8210194AF7F200B89939 /* 使用1.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81A9194AF7F200B89939 /* 使用1.png */; };
+		217D8211194AF7F200B89939 /* 使用2.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81AA194AF7F200B89939 /* 使用2.png */; };
+		217D8212194AF7F200B89939 /* 删除-默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81AB194AF7F200B89939 /* 删除-默认.png */; };
+		217D8213194AF7F200B89939 /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81AC194AF7F200B89939 /* 删除.png */; };
+		217D8214194AF7F200B89939 /* 反拍-大.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81AD194AF7F200B89939 /* 反拍-大.png */; };
+		217D8215194AF7F200B89939 /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81AE194AF7F200B89939 /* 取消.png */; };
+		217D8216194AF7F200B89939 /* 录像-拍摄.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81AF194AF7F200B89939 /* 录像-拍摄.png */; };
+		217D8217194AF7F200B89939 /* 录像-默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81B0194AF7F200B89939 /* 录像-默认.png */; };
+		217D8218194AF7F200B89939 /* 提示.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81B1194AF7F200B89939 /* 提示.png */; };
+		217D8219194AF7F200B89939 /* 闪光-默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81B2194AF7F200B89939 /* 闪光-默认.png */; };
+		217D821A194AF7F200B89939 /* 闪光.png in Resources */ = {isa = PBXBuildFile; fileRef = 217D81B3194AF7F200B89939 /* 闪光.png */; };
+		217D824F194AF7F200B89939 /* CVRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D820E194AF7F200B89939 /* CVRViewController.m */; };
+		217D826E194AF9F200B89939 /* CVRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217D826A194AF9F200B89939 /* CVRViewController_iPad.xib */; };
+		217D826F194AF9F200B89939 /* CVRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217D826C194AF9F200B89939 /* CVRViewController_iPhone.xib */; };
+		217D8271194AFA9E00B89939 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8270194AFA9D00B89939 /* AssetsLibrary.framework */; };
+		217D8273194AFAA500B89939 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8272194AFAA500B89939 /* CoreText.framework */; };
+		217D8275194AFAB200B89939 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8274194AFAB200B89939 /* AVFoundation.framework */; };
+		217D8277194AFABD00B89939 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8276194AFABD00B89939 /* CoreMedia.framework */; };
+		217D8279194AFAC600B89939 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8278194AFAC600B89939 /* ImageIO.framework */; };
+		217D827B194AFACC00B89939 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D827A194AFACC00B89939 /* QuartzCore.framework */; };
+		217D827D194AFAD200B89939 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D827C194AFAD200B89939 /* OpenGLES.framework */; };
+		217D827F194AFAD700B89939 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D827E194AFAD700B89939 /* MobileCoreServices.framework */; };
+		217D8281194AFADE00B89939 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8280194AFADE00B89939 /* MediaPlayer.framework */; };
+		217D8283194AFAEA00B89939 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8282194AFAEA00B89939 /* CoreGraphics.framework */; };
+		217D8285194AFAF300B89939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8284194AFAF300B89939 /* Foundation.framework */; };
+		217D8287194AFB0400B89939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217D8286194AFB0400B89939 /* UIKit.framework */; };
+		217D828E194E918C00B89939 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D828A194E918C00B89939 /* PostViewController.m */; };
+		21EDBFB5194E901C00D18036 /* CVRUtilsAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EDBFAA194E901C00D18036 /* CVRUtilsAttributedLabel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21EDBFB6194E901C00D18036 /* CVRCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EDBFAC194E901C00D18036 /* CVRCameraController.m */; };
+		21EDBFB7194E901C00D18036 /* CVRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EDBFAF194E901C00D18036 /* CVRNavigationController.m */; };
+		21EDBFB8194E901C00D18036 /* CVRSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EDBFB1194E901C00D18036 /* CVRSessionManager.m */; };
+		21EDBFB9194E901C00D18036 /* CVRUtilsPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EDBFB4194E901C00D18036 /* CVRUtilsPalette.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21EDBFBD194E904400D18036 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDBFBA194E904400D18036 /* Default-568h@2x.png */; };
+		21EDBFBE194E904400D18036 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDBFBB194E904400D18036 /* Default.png */; };
+		21EDBFBF194E904400D18036 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDBFBC194E904400D18036 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217D8193194AF6D900B89939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217D816B194AF6D900B89939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217D8172194AF6D900B89939;
+			remoteInfo = CustomVideoRecording;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217D8173194AF6D900B89939 /* CustomVideoRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomVideoRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217D8176194AF6D900B89939 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		217D8178194AF6D900B89939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		217D817A194AF6D900B89939 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		217D817E194AF6D900B89939 /* CustomVideoRecording-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomVideoRecording-Info.plist"; sourceTree = "<group>"; };
+		217D8180194AF6D900B89939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		217D8182194AF6D900B89939 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		217D8184194AF6D900B89939 /* CustomVideoRecording-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomVideoRecording-Prefix.pch"; sourceTree = "<group>"; };
+		217D8185194AF6D900B89939 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		217D8186194AF6D900B89939 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		217D8188194AF6D900B89939 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		217D818E194AF6D900B89939 /* CustomVideoRecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomVideoRecordingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217D818F194AF6D900B89939 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		217D8197194AF6D900B89939 /* CustomVideoRecordingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomVideoRecordingTests-Info.plist"; sourceTree = "<group>"; };
+		217D8199194AF6D900B89939 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		217D819B194AF6D900B89939 /* CustomVideoRecordingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVideoRecordingTests.m; sourceTree = "<group>"; };
+		217D81A9194AF7F200B89939 /* 使用1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用1.png"; sourceTree = "<group>"; };
+		217D81AA194AF7F200B89939 /* 使用2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用2.png"; sourceTree = "<group>"; };
+		217D81AB194AF7F200B89939 /* 删除-默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除-默认.png"; sourceTree = "<group>"; };
+		217D81AC194AF7F200B89939 /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除.png"; sourceTree = "<group>"; };
+		217D81AD194AF7F200B89939 /* 反拍-大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "反拍-大.png"; sourceTree = "<group>"; };
+		217D81AE194AF7F200B89939 /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
+		217D81AF194AF7F200B89939 /* 录像-拍摄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "录像-拍摄.png"; sourceTree = "<group>"; };
+		217D81B0194AF7F200B89939 /* 录像-默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "录像-默认.png"; sourceTree = "<group>"; };
+		217D81B1194AF7F200B89939 /* 提示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示.png"; sourceTree = "<group>"; };
+		217D81B2194AF7F200B89939 /* 闪光-默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪光-默认.png"; sourceTree = "<group>"; };
+		217D81B3194AF7F200B89939 /* 闪光.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪光.png"; sourceTree = "<group>"; };
+		217D820D194AF7F200B89939 /* CVRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRViewController.h; sourceTree = "<group>"; };
+		217D820E194AF7F200B89939 /* CVRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRViewController.m; sourceTree = "<group>"; };
+		217D8258194AF93800B89939 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		217D825A194AF93E00B89939 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		217D825C194AF94700B89939 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		217D825E194AF94C00B89939 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		217D8260194AF95400B89939 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		217D8262194AF95E00B89939 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		217D8264194AF96700B89939 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		217D8266194AF97200B89939 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		217D8268194AF97900B89939 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		217D826B194AF9F200B89939 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CVRViewController_iPad.xib; sourceTree = "<group>"; };
+		217D826D194AF9F200B89939 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CVRViewController_iPhone.xib; sourceTree = "<group>"; };
+		217D8270194AFA9D00B89939 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		217D8272194AFAA500B89939 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		217D8274194AFAB200B89939 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		217D8276194AFABD00B89939 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		217D8278194AFAC600B89939 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		217D827A194AFACC00B89939 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		217D827C194AFAD200B89939 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		217D827E194AFAD700B89939 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		217D8280194AFADE00B89939 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		217D8282194AFAEA00B89939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		217D8284194AFAF300B89939 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		217D8286194AFB0400B89939 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		217D8289194E918C00B89939 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		217D828A194E918C00B89939 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		21EDBFA9194E901C00D18036 /* CVRUtilsAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRUtilsAttributedLabel.h; sourceTree = "<group>"; };
+		21EDBFAA194E901C00D18036 /* CVRUtilsAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRUtilsAttributedLabel.m; sourceTree = "<group>"; };
+		21EDBFAB194E901C00D18036 /* CVRCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRCameraController.h; sourceTree = "<group>"; };
+		21EDBFAC194E901C00D18036 /* CVRCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRCameraController.m; sourceTree = "<group>"; };
+		21EDBFAD194E901C00D18036 /* CVRDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRDefines.h; sourceTree = "<group>"; };
+		21EDBFAE194E901C00D18036 /* CVRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRNavigationController.h; sourceTree = "<group>"; };
+		21EDBFAF194E901C00D18036 /* CVRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRNavigationController.m; sourceTree = "<group>"; };
+		21EDBFB0194E901C00D18036 /* CVRSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRSessionManager.h; sourceTree = "<group>"; };
+		21EDBFB1194E901C00D18036 /* CVRSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRSessionManager.m; sourceTree = "<group>"; };
+		21EDBFB3194E901C00D18036 /* CVRUtilsPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRUtilsPalette.h; sourceTree = "<group>"; };
+		21EDBFB4194E901C00D18036 /* CVRUtilsPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRUtilsPalette.m; sourceTree = "<group>"; };
+		21EDBFBA194E904400D18036 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		21EDBFBB194E904400D18036 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		21EDBFBC194E904400D18036 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217D8170194AF6D900B89939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D8287194AFB0400B89939 /* UIKit.framework in Frameworks */,
+				217D8285194AFAF300B89939 /* Foundation.framework in Frameworks */,
+				217D8283194AFAEA00B89939 /* CoreGraphics.framework in Frameworks */,
+				217D8281194AFADE00B89939 /* MediaPlayer.framework in Frameworks */,
+				217D827F194AFAD700B89939 /* MobileCoreServices.framework in Frameworks */,
+				217D827D194AFAD200B89939 /* OpenGLES.framework in Frameworks */,
+				217D827B194AFACC00B89939 /* QuartzCore.framework in Frameworks */,
+				217D8279194AFAC600B89939 /* ImageIO.framework in Frameworks */,
+				217D8277194AFABD00B89939 /* CoreMedia.framework in Frameworks */,
+				217D8275194AFAB200B89939 /* AVFoundation.framework in Frameworks */,
+				217D8273194AFAA500B89939 /* CoreText.framework in Frameworks */,
+				217D8271194AFA9E00B89939 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D818B194AF6D900B89939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D8190194AF6D900B89939 /* XCTest.framework in Frameworks */,
+				217D8192194AF6D900B89939 /* UIKit.framework in Frameworks */,
+				217D8191194AF6D900B89939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217D816A194AF6D900B89939 = {
+			isa = PBXGroup;
+			children = (
+				217D817C194AF6D900B89939 /* CustomVideoRecording */,
+				217D8195194AF6D900B89939 /* CustomVideoRecordingTests */,
+				217D8175194AF6D900B89939 /* Frameworks */,
+				217D8174194AF6D900B89939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217D8174194AF6D900B89939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217D8173194AF6D900B89939 /* CustomVideoRecording.app */,
+				217D818E194AF6D900B89939 /* CustomVideoRecordingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217D8175194AF6D900B89939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				217D8286194AFB0400B89939 /* UIKit.framework */,
+				217D8284194AFAF300B89939 /* Foundation.framework */,
+				217D8282194AFAEA00B89939 /* CoreGraphics.framework */,
+				217D8280194AFADE00B89939 /* MediaPlayer.framework */,
+				217D827E194AFAD700B89939 /* MobileCoreServices.framework */,
+				217D827C194AFAD200B89939 /* OpenGLES.framework */,
+				217D827A194AFACC00B89939 /* QuartzCore.framework */,
+				217D8278194AFAC600B89939 /* ImageIO.framework */,
+				217D8276194AFABD00B89939 /* CoreMedia.framework */,
+				217D8274194AFAB200B89939 /* AVFoundation.framework */,
+				217D8272194AFAA500B89939 /* CoreText.framework */,
+				217D8270194AFA9D00B89939 /* AssetsLibrary.framework */,
+				217D8268194AF97900B89939 /* AssetsLibrary.framework */,
+				217D8266194AF97200B89939 /* CoreText.framework */,
+				217D8264194AF96700B89939 /* AVFoundation.framework */,
+				217D8262194AF95E00B89939 /* CoreMedia.framework */,
+				217D8260194AF95400B89939 /* ImageIO.framework */,
+				217D825E194AF94C00B89939 /* QuartzCore.framework */,
+				217D825C194AF94700B89939 /* OpenGLES.framework */,
+				217D825A194AF93E00B89939 /* MobileCoreServices.framework */,
+				217D8258194AF93800B89939 /* MediaPlayer.framework */,
+				217D8176194AF6D900B89939 /* Foundation.framework */,
+				217D8178194AF6D900B89939 /* CoreGraphics.framework */,
+				217D817A194AF6D900B89939 /* UIKit.framework */,
+				217D818F194AF6D900B89939 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		217D817C194AF6D900B89939 /* CustomVideoRecording */ = {
+			isa = PBXGroup;
+			children = (
+				21EDBFA7194E901C00D18036 /* CVRCaptureCamera */,
+				217D8185194AF6D900B89939 /* AppDelegate.h */,
+				217D8186194AF6D900B89939 /* AppDelegate.m */,
+				217D820D194AF7F200B89939 /* CVRViewController.h */,
+				217D820E194AF7F200B89939 /* CVRViewController.m */,
+				217D817D194AF6D900B89939 /* Supporting Files */,
+			);
+			path = CustomVideoRecording;
+			sourceTree = "<group>";
+		};
+		217D817D194AF6D900B89939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21EDBFBA194E904400D18036 /* Default-568h@2x.png */,
+				21EDBFBB194E904400D18036 /* Default.png */,
+				21EDBFBC194E904400D18036 /* Default@2x.png */,
+				217D81A8194AF7F200B89939 /* Resource */,
+				217D826A194AF9F200B89939 /* CVRViewController_iPad.xib */,
+				217D826C194AF9F200B89939 /* CVRViewController_iPhone.xib */,
+				217D817E194AF6D900B89939 /* CustomVideoRecording-Info.plist */,
+				217D8184194AF6D900B89939 /* CustomVideoRecording-Prefix.pch */,
+				217D817F194AF6D900B89939 /* InfoPlist.strings */,
+				217D8182194AF6D900B89939 /* main.m */,
+				217D8188194AF6D900B89939 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217D8195194AF6D900B89939 /* CustomVideoRecordingTests */ = {
+			isa = PBXGroup;
+			children = (
+				217D819B194AF6D900B89939 /* CustomVideoRecordingTests.m */,
+				217D8196194AF6D900B89939 /* Supporting Files */,
+			);
+			path = CustomVideoRecordingTests;
+			sourceTree = "<group>";
+		};
+		217D8196194AF6D900B89939 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				217D8197194AF6D900B89939 /* CustomVideoRecordingTests-Info.plist */,
+				217D8198194AF6D900B89939 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217D81A8194AF7F200B89939 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				217D81A9194AF7F200B89939 /* 使用1.png */,
+				217D81AA194AF7F200B89939 /* 使用2.png */,
+				217D81AB194AF7F200B89939 /* 删除-默认.png */,
+				217D81AC194AF7F200B89939 /* 删除.png */,
+				217D81AD194AF7F200B89939 /* 反拍-大.png */,
+				217D81AE194AF7F200B89939 /* 取消.png */,
+				217D81AF194AF7F200B89939 /* 录像-拍摄.png */,
+				217D81B0194AF7F200B89939 /* 录像-默认.png */,
+				217D81B1194AF7F200B89939 /* 提示.png */,
+				217D81B2194AF7F200B89939 /* 闪光-默认.png */,
+				217D81B3194AF7F200B89939 /* 闪光.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		217D8288194E918C00B89939 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				217D8289194E918C00B89939 /* PostViewController.h */,
+				217D828A194E918C00B89939 /* PostViewController.m */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		217D828B194E918C00B89939 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				217D828C194E918C00B89939 /* DCIntrospect-ARC */,
+				217D828D194E918C00B89939 /* SVProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		217D828C194E918C00B89939 /* DCIntrospect-ARC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DCIntrospect-ARC";
+			sourceTree = "<group>";
+		};
+		217D828D194E918C00B89939 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		21EDBFA7194E901C00D18036 /* CVRCaptureCamera */ = {
+			isa = PBXGroup;
+			children = (
+				21EDBFAB194E901C00D18036 /* CVRCameraController.h */,
+				21EDBFAC194E901C00D18036 /* CVRCameraController.m */,
+				21EDBFAD194E901C00D18036 /* CVRDefines.h */,
+				21EDBFAE194E901C00D18036 /* CVRNavigationController.h */,
+				21EDBFAF194E901C00D18036 /* CVRNavigationController.m */,
+				21EDBFB0194E901C00D18036 /* CVRSessionManager.h */,
+				21EDBFB1194E901C00D18036 /* CVRSessionManager.m */,
+				21EDBFA8194E901C00D18036 /* Custom_label */,
+				21EDBFB2194E901C00D18036 /* Palette */,
+				217D8288194E918C00B89939 /* Post */,
+				217D828B194E918C00B89939 /* Vendor */,
+			);
+			path = CVRCaptureCamera;
+			sourceTree = "<group>";
+		};
+		21EDBFA8194E901C00D18036 /* Custom_label */ = {
+			isa = PBXGroup;
+			children = (
+				21EDBFA9194E901C00D18036 /* CVRUtilsAttributedLabel.h */,
+				21EDBFAA194E901C00D18036 /* CVRUtilsAttributedLabel.m */,
+			);
+			path = Custom_label;
+			sourceTree = "<group>";
+		};
+		21EDBFB2194E901C00D18036 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				21EDBFB3194E901C00D18036 /* CVRUtilsPalette.h */,
+				21EDBFB4194E901C00D18036 /* CVRUtilsPalette.m */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217D8172194AF6D900B89939 /* CustomVideoRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217D819F194AF6D900B89939 /* Build configuration list for PBXNativeTarget "CustomVideoRecording" */;
+			buildPhases = (
+				217D816F194AF6D900B89939 /* Sources */,
+				217D8170194AF6D900B89939 /* Frameworks */,
+				217D8171194AF6D900B89939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomVideoRecording;
+			productName = CustomVideoRecording;
+			productReference = 217D8173194AF6D900B89939 /* CustomVideoRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217D818D194AF6D900B89939 /* CustomVideoRecordingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217D81A2194AF6D900B89939 /* Build configuration list for PBXNativeTarget "CustomVideoRecordingTests" */;
+			buildPhases = (
+				217D818A194AF6D900B89939 /* Sources */,
+				217D818B194AF6D900B89939 /* Frameworks */,
+				217D818C194AF6D900B89939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217D8194194AF6D900B89939 /* PBXTargetDependency */,
+			);
+			name = CustomVideoRecordingTests;
+			productName = CustomVideoRecordingTests;
+			productReference = 217D818E194AF6D900B89939 /* CustomVideoRecordingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217D816B194AF6D900B89939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = xietingsong;
+				TargetAttributes = {
+					217D818D194AF6D900B89939 = {
+						TestTargetID = 217D8172194AF6D900B89939;
+					};
+				};
+			};
+			buildConfigurationList = 217D816E194AF6D900B89939 /* Build configuration list for PBXProject "CustomVideoRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 217D816A194AF6D900B89939;
+			productRefGroup = 217D8174194AF6D900B89939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217D8172194AF6D900B89939 /* CustomVideoRecording */,
+				217D818D194AF6D900B89939 /* CustomVideoRecordingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217D8171194AF6D900B89939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D821A194AF7F200B89939 /* 闪光.png in Resources */,
+				217D8214194AF7F200B89939 /* 反拍-大.png in Resources */,
+				217D8210194AF7F200B89939 /* 使用1.png in Resources */,
+				217D826E194AF9F200B89939 /* CVRViewController_iPad.xib in Resources */,
+				217D8181194AF6D900B89939 /* InfoPlist.strings in Resources */,
+				217D8217194AF7F200B89939 /* 录像-默认.png in Resources */,
+				217D8219194AF7F200B89939 /* 闪光-默认.png in Resources */,
+				21EDBFBE194E904400D18036 /* Default.png in Resources */,
+				217D8212194AF7F200B89939 /* 删除-默认.png in Resources */,
+				217D8216194AF7F200B89939 /* 录像-拍摄.png in Resources */,
+				217D8189194AF6D900B89939 /* Images.xcassets in Resources */,
+				217D826F194AF9F200B89939 /* CVRViewController_iPhone.xib in Resources */,
+				21EDBFBF194E904400D18036 /* Default@2x.png in Resources */,
+				217D8211194AF7F200B89939 /* 使用2.png in Resources */,
+				217D8213194AF7F200B89939 /* 删除.png in Resources */,
+				21EDBFBD194E904400D18036 /* Default-568h@2x.png in Resources */,
+				217D8215194AF7F200B89939 /* 取消.png in Resources */,
+				217D8218194AF7F200B89939 /* 提示.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D818C194AF6D900B89939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D819A194AF6D900B89939 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217D816F194AF6D900B89939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EDBFB5194E901C00D18036 /* CVRUtilsAttributedLabel.m in Sources */,
+				21EDBFB8194E901C00D18036 /* CVRSessionManager.m in Sources */,
+				21EDBFB7194E901C00D18036 /* CVRNavigationController.m in Sources */,
+				217D824F194AF7F200B89939 /* CVRViewController.m in Sources */,
+				217D8187194AF6D900B89939 /* AppDelegate.m in Sources */,
+				217D828E194E918C00B89939 /* PostViewController.m in Sources */,
+				217D8183194AF6D900B89939 /* main.m in Sources */,
+				21EDBFB6194E901C00D18036 /* CVRCameraController.m in Sources */,
+				21EDBFB9194E901C00D18036 /* CVRUtilsPalette.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D818A194AF6D900B89939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D819C194AF6D900B89939 /* CustomVideoRecordingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217D8194194AF6D900B89939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217D8172194AF6D900B89939 /* CustomVideoRecording */;
+			targetProxy = 217D8193194AF6D900B89939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217D817F194AF6D900B89939 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217D8180194AF6D900B89939 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		217D8198194AF6D900B89939 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217D8199194AF6D900B89939 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		217D826A194AF9F200B89939 /* CVRViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217D826B194AF9F200B89939 /* en */,
+			);
+			name = CVRViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		217D826C194AF9F200B89939 /* CVRViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217D826D194AF9F200B89939 /* en */,
+			);
+			name = CVRViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217D819D194AF6D900B89939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217D819E194AF6D900B89939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217D81A0194AF6D900B89939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomVideoRecording/CustomVideoRecording-Prefix.pch";
+				INFOPLIST_FILE = "CustomVideoRecording/CustomVideoRecording-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		217D81A1194AF6D900B89939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomVideoRecording/CustomVideoRecording-Prefix.pch";
+				INFOPLIST_FILE = "CustomVideoRecording/CustomVideoRecording-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		217D81A3194AF6D900B89939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomVideoRecording.app/CustomVideoRecording";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomVideoRecording/CustomVideoRecording-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomVideoRecordingTests/CustomVideoRecordingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		217D81A4194AF6D900B89939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomVideoRecording.app/CustomVideoRecording";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomVideoRecording/CustomVideoRecording-Prefix.pch";
+				INFOPLIST_FILE = "CustomVideoRecordingTests/CustomVideoRecordingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217D816E194AF6D900B89939 /* Build configuration list for PBXProject "CustomVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D819D194AF6D900B89939 /* Debug */,
+				217D819E194AF6D900B89939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217D819F194AF6D900B89939 /* Build configuration list for PBXNativeTarget "CustomVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D81A0194AF6D900B89939 /* Debug */,
+				217D81A1194AF6D900B89939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217D81A2194AF6D900B89939 /* Build configuration list for PBXNativeTarget "CustomVideoRecordingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D81A3194AF6D900B89939 /* Debug */,
+				217D81A4194AF6D900B89939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217D816B194AF6D900B89939 /* Project object */;
+}
